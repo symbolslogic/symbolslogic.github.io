@@ -15,8 +15,10 @@ nav {
 
 .nav-heading {
   color: white;
-  margin: 0.3rem $nav-children-margin;
   font-size: 0.87rem;
+  margin-top: 2rem;
+  margin-left: $nav-children-margin;
+  margin-bottom: 1rem;
 }
 
 nav ul {
@@ -24,6 +26,7 @@ nav ul {
   margin: 0;
   padding: 0;
   background-color: black;
+  line-height: 1.2;
 }
 
 nav li {
