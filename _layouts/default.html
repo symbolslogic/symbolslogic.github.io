@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Symbols | {{ page.title }}</title>
+
+    <meta property="og:title" content="Symbols | {{ page.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.symbols-app.com" />
+    <meta property="og:image" content="favicon.svg" />
+
+    <meta
+      name="description"
+      content="Unlock the power of logic and critical thinking with our interactive app. From the fundamentals of propositional logic and the rules of inference to the nuances of detecting logical fallacies, our lessons are designed to take your reasoning skills to the next level. Whether you're a student striving for academic success or simply want to sharpen your mind, our app is the perfect tool. Start thinking logically and try it out today!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/svg" href="/favicon.svg" />
+
+    <script type="module" src="/assets/js/main.js"></script>
+
+    {% feed_meta %} {% seo %}
+  </head>
+  <body>
+    {% include navigation.html %}
+
+    <div class="container">{{ content }}</div>
+
+    {% include footer.html %}
+  </body>
+</html>

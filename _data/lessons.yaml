@@ -1,0 +1,50 @@
+- section: Fundamentals
+  lessons:
+    - name: Argument Basics
+      link: /lessons/basics.html
+
+    - name: Argument Structure
+      link: /lessons/structure.html
+
+    - name: Assumptions
+      link: /lessons/assumptions.html
+
+    - name: Argument Validity
+      link: /lessons/validity.html
+
+    - name: Argument Soundness
+      link: /lessons/soundness.html
+
+    - name: Argument Form
+      link: /lessons/argument_form.html
+
+    - name: Everything is Bool
+      link: /lessons/everything_is_bool.html
+
+- section: Connectives
+  lessons:
+    - name: Implication
+      link: /lessons/implication.html
+
+    - name: Conjunction
+      link: /lessons/conjunction.html
+
+    - name: Disjunction
+      link: /lessons/disjunction.html
+
+    - name: Biconditional
+      link: /lessons/biconditional.html
+
+    - name: Negation
+      link: /lessons/negation.html
+
+- section: Rules of Inference
+  lessons:
+    - name: Modus Ponens
+      link: /lessons/modus_ponens.html
+
+    - name: Modus Tollens
+      link: /lessons/modus_ponens.html
+
+    - name: Disjunctive Syllogism
+      link: /lessons/modus_ponens.html

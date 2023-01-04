@@ -1,0 +1,25 @@
+---
+layout: default
+title: Lessons
+---
+
+<h1>Logic Lessons</h1>
+
+<p>
+  In the same spirit of Symbols Logic, these logic lessons are designed to be
+  concise and short, so that you may be immediately effective on your journey of
+  learning logic.
+</p>
+
+{% for item in site.data.lessons %}
+<div class="lesson-section">
+  <h3>{{ item.section }}</h3>
+  <ul>
+    {% for lesson in item.lessons %}
+    <li>
+      <a href="{{ lesson.link }}"> {{ lesson.name }} </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %} {% include app-call-out.html %}

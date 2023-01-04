@@ -1,0 +1,92 @@
+@import "./variables.scss";
+
+$nav-children-margin: 0.51rem;
+$icon-size: 42px;
+$offset: 0.9rem;
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $navbar-height;
+  z-index: 100;
+}
+
+.nav-heading {
+  color: white;
+  margin: 0.3rem $nav-children-margin;
+  font-size: 0.87rem;
+}
+
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+nav li {
+  margin: $nav-children-margin;
+}
+
+nav li a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+#nav-button {
+  border: 0;
+  height: $icon-size;
+  width: $icon-size;
+  background-color: transparent;
+  color: white;
+  display: block;
+  position: absolute;
+  right: $offset;
+}
+
+#nav-menu-list {
+  border-top: 1px solid white;
+  position: absolute;
+  top: 63px;
+  display: none;
+  z-index: 100;
+  height: 100vh;
+  height: calc(100vh - 63px);
+  padding: 0.3rem 0;
+}
+
+#nav-menu-list.show {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container {
+  left: $offset;
+  position: absolute;
+}
+
+.logo {
+  left: $offset;
+  position: absolute;
+  color: white;
+  font-family: "Noto Sans Math", sans-serif;
+  margin: $nav-children-margin;
+  font-weight: 600;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo a:visited {
+  color: inherit;
+}

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="lesson">
+	<h1> {{ page.title }} </h2>
+		
+	<div class="lesson-content">
+		{{ content }}
+
+		{% include app-call-out.html %}
+	</div>
+
+	{% include next_and_prev.li.html title=page.title %}
+</div>

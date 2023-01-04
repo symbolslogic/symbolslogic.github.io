@@ -1,0 +1,49 @@
+$footer-bg-color: black;
+
+footer {
+  background-color: $footer-bg-color;
+  padding: 1rem;
+  margin: 0;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer h3 {
+  color: white;
+  font-size: 0.9em;
+  margin: 0.3rem 0;
+  font-weight: 700;
+  margin-top: 0.82rem;
+}
+
+footer a {
+  font-size: 1.11rem;
+  color: #dfdfdf;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+.active-lesson {
+  font-style: italic;
+}
+
+.further-information {
+  display: flex;
+  justify-content: center;
+}
+
+.further-information li {
+  text-align: center;
+  margin: 0.6rem;
+}
+
+.further-information li a {
+  font-size: 0.9rem;
+}

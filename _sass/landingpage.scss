@@ -1,0 +1,261 @@
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 63px);
+}
+
+header h1 {
+  font-size: 7.2vmin;
+  font-weight: medium;
+  margin: 0;
+}
+
+header h4 {
+  font-size: 3vmin;
+  color: #6d6d6d;
+  font-weight: normal;
+  max-width: 32vw;
+}
+
+.storeButtonsContainer {
+  margin-top: 4.2vmin;
+}
+
+.storeButtonsContainer img {
+  height: auto;
+  width: 9vw;
+}
+
+@media screen and (max-width: 800px) {
+  .storeButtonsContainer img {
+    height: auto;
+    width: 24vw;
+    margin: 0.6vmin;
+  }
+
+  .storeButtonsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 2.1vmin;
+}
+
+.callout {
+  margin: 2.1vmin;
+}
+
+.row {
+  display: flex;
+}
+
+.gridBox {
+  font-weight: 900;
+  font-size: 9.6vmin;
+  border: 0.6vmin black solid;
+  border-radius: 12px;
+  color: black;
+  margin: 6px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 24vmin;
+  height: 24vmin;
+  width: 24vmin;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column {
+    margin: 60px 0;
+  }
+
+  .callout {
+    max-width: 72vw;
+    margin: 0;
+  }
+
+  header h1 {
+    font-size: 7.2vmin;
+    text-align: center;
+  }
+
+  header h4 {
+    text-align: center;
+    max-width: 63vw;
+    font-size: 3.9vmin;
+    margin-bottom: 6vmin;
+    margin-top: 2.1vmin;
+  }
+
+  .gridBox {
+    border: 0.72vmin black solid;
+  }
+}
+
+/* Section */
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+section h1 {
+  font-size: 6.3vmin;
+  font-weight: medium;
+  min-width: 42vmin;
+}
+
+section h2 {
+  font-size: 3.3vmin;
+  color: #6d6d6d;
+  font-weight: normal;
+  max-width: 42vmin;
+}
+
+.sectionText {
+  margin: 4.2vmin;
+}
+
+@media screen and (max-width: 768px) {
+  #studycards {
+    flex-direction: column-reverse;
+  }
+
+  #activities {
+    flex-direction: column;
+  }
+
+  section {
+    justify-content: center;
+  }
+
+  section h1,
+  section h2 {
+    text-align: center;
+  }
+
+  .phoneContainer {
+    margin-top: 30px;
+  }
+}
+
+/* Phone Outline Image */
+.phoneOutlineImage {
+  width: auto;
+  height: 75vh;
+  border-radius: 24px;
+  border-color: black;
+  border-width: 0.9vmin;
+  border-style: solid;
+}
+
+.phoneContainer {
+  position: relative;
+}
+
+.phoneBar {
+  position: absolute;
+  height: 3.6vmin;
+  width: 18vmin;
+  background-color: black;
+  top: 0;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  left: calc(50% - 9vmin);
+}
+
+@media screen and (max-width: 768px) {
+  .phoneOutlineImage {
+    height: 66vh;
+  }
+}
+
+/* Typography */
+.font {
+  font-family: "Noto Sans Math", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+/* Animations */
+.fadeInLeft {
+  animation-name: fadeInLeftAnimation;
+  animation-duration: 700ms;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d();
+}
+
+.fadeInRight {
+  animation-name: fadeInRightAnimation;
+  animation-duration: 700ms;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.fadeInUp {
+  animation-name: fadeInUpAnimation;
+  animation-duration: 700ms;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.hide {
+  opacity: 0;
+  --webkit-opacity: 0;
+}
+
+@keyframes fadeInRightAnimation {
+  from {
+    transform: translateX(15vmin);
+    --webkit-transform: translateX(15vmin);
+    --webkit-transform: translate3d(0, 0, 0);
+    opacity: 0;
+    --webkit-opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    --webkit-opacity: 1;
+  }
+}
+
+@keyframes fadeInLeftAnimation {
+  from {
+    transform: translateX(-15vmin);
+    --webkit-transform: translateX(-15vmin);
+    opacity: 0;
+    --webkit-opacity: 0;
+    --webkit-transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    --webkit-opacity: 1;
+  }
+}
+
+@keyframes fadeInUpAnimation {
+  from {
+    transform: translateY(3vmin);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

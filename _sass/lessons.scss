@@ -1,0 +1,116 @@
+$lesson-bg-color: white;
+$lesson-quote-bg-color: black;
+$lesson-quote-text-color: white;
+
+$chevron-size: 2.4rem;
+
+.lesson p {
+  margin: 1.25em 0;
+  line-height: 1.4;
+  word-spacing: 0.15em;
+}
+
+.lesson-content {
+  background-color: $lesson-bg-color;
+  border-radius: 1em;
+  padding: 0.9em 1.5em;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.21);
+}
+
+.lesson ol {
+  margin: 0.6em;
+}
+
+.lesson ol li {
+  margin: 0.6em 0.9em;
+}
+
+.lesson-content blockquote {
+  background-color: $lesson-quote-bg-color;
+  color: $lesson-quote-text-color;
+  padding: 0.9em 1.2em;
+  margin: 1.8em 1em;
+  border-radius: 12px;
+}
+
+.lesson-section {
+  margin: 1.8rem 0;
+  background-color: white;
+  padding: 1.2rem;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.18);
+  border-radius: 1em;
+}
+
+.lesson-section ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 0.21rem;
+}
+
+.lesson-section h3 {
+  color: rgb(81, 81, 81);
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+}
+
+.lesson-section a {
+  color: rgb(49, 49, 49);
+  text-decoration: none;
+}
+
+.lesson-section a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.next-and-previous-buttons {
+  display: flex;
+  font-size: 1.2rem;
+  color: rgb(90, 90, 90);
+  justify-content: space-between;
+  margin: 1.5rem 3rem;
+}
+
+.next-and-previous-buttons > * {
+  display: flex;
+  align-items: center;
+}
+
+.chevron {
+  height: $chevron-size;
+  width: $chevron-size;
+  display: inline;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.app-callout {
+  background-color: rgb(209, 209, 209);
+  padding: 1.8rem;
+  border-radius: 12px;
+  color: black;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.app-callout h3 {
+  font-size: 2.1rem;
+  font-weight: 200;
+}
+
+.app-callout img {
+  width: auto;
+  height: 2.7rem;
+  margin: 0.3rem;
+}
