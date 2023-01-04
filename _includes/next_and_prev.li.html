@@ -1,0 +1,43 @@
+<div class="next-and-previous-buttons">
+  {% for section in site.data.lessons %}
+    {% assign prev_si = forloop.index0 | minus: 1 %}
+    {% assign next_si = forloop.index0 | plus: 1 %}
+    {% assign is_last_section = forloop.last %}
+
+    {% for lesson in section.lessons %}
+      {% if lesson.name == include.title %}
+        {% assign prev_i = forloop.index0 | minus: 1 %}
+        {% assign next_i = forloop.index0 | plus: 1 %}
+        {% assign prev_url = "" %}
+        {% assign next_url = "" %}
+
+        {% if prev_i > -1 %}
+          {% assign prev_url = section.lessons[prev_i].link %}
+        {% elsif prev_si > -1 %}
+          {% assign prev_url = site.data.lessons[prev_si].lessons[-1].link %}
+        {% endif %}
+
+        {% if next_i < forloop.length %}
+          {% assign next_url = section.lessons[next_i].link %}
+        {% elsif is_last_section !=  true %}
+          {% assign next_url = site.data.lessons[next_si].lessons[0].link %}
+        {% endif %}
+
+        {% unless prev_url == "" %}
+          <a class="left" href="{{ prev_url }}">  
+            <svg class="chevron" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+            Previous
+          </a> 
+        {% endunless %}
+
+        {% unless next_url == "" %}
+          <a class="right" href="{{ next_url }}">
+            Next
+            <svg class="chevron" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+          </a>
+        {% endunless %}
+
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>

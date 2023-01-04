@@ -1,0 +1,17 @@
+<footer>
+  {% if page.url contains '/lessons/' %}
+    {% for lesson_section in site.data.lessons %}
+    <h3>{{ lesson_section.section }}</h3>
+    <ul>
+      {% for lesson in lesson_section.lessons %}
+      <li>
+        <a href="{{ lesson.link }}" 
+        {% if page.url == lesson.link %} class="active-lesson" {% endif %}> 
+          {{ lesson.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  {% endif %}
+</footer>
