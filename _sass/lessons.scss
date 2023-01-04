@@ -6,15 +6,15 @@ $chevron-size: 2.4rem;
 
 .lesson p {
   margin: 1.25em 0;
-  line-height: 1.4;
+  line-height: 1.9;
   word-spacing: 0.15em;
 }
 
 .lesson-content {
   background-color: $lesson-bg-color;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.21);
   border-radius: 1em;
   padding: 0.9em 1.5em;
-  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.21);
 }
 
 .lesson ol {
@@ -49,9 +49,10 @@ $chevron-size: 2.4rem;
 
 .lesson-section h3 {
   color: rgb(81, 81, 81);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 0.6rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "Noto Sans Math";
 }
 
 .lesson-section a {

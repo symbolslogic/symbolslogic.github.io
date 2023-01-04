@@ -50,4 +50,4 @@ This is NOT the same form. Instead, it follows the form:
     <hr>
 > 3. a
 
-This slight difference is the difference between _modus ponens_ and _the fallacy of the converse_. The first being one of the most common valid argument forms and the second being one of the most common invalid forms--or fallacy--in formal logic. There is much more to be said about the two aforementioned argument forms and their differences. However, before we can dive into studying argument forms, we still need to know the difference between an affirmed or negated statement.
+This slight difference is the difference between _modus ponens_ and _the fallacy of the converse_. The first being one of the most common valid argument forms and the second being one of the most common invalid forms--or fallacies--in formal logic. There is much more to be said about the two aforementioned argument forms and their differences. However, before we can dive into studying argument forms, we still need to know the difference between an affirmed or negated statement.
