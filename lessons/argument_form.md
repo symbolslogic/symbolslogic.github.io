@@ -3,7 +3,7 @@ layout: lesson
 title: Argument Form
 ---
 
-We can further reduce ambiguity and faciliate the study of logic by symbolizing the statements of an argument and generalizing their overall form.
+We can further reduce ambiguity and faciliate the study of logic by symbolizing the statements of an argument and generalizing its overall form.
 
 > 1. I heard barking.
     <hr>
@@ -22,21 +22,23 @@ If we want to add the missing assumption to make the argument valid, we can let 
     <hr>
 > 3. D (1, 2)
 
-Now that we have symbolized our statements, it is far easier to recognize the form of the argument. To encapsulate a form, we use variables, which are represented with lowercase letters.
+Now that we have symbolized our statements, it is easier to recognize the form of the argument. To generalize a form, we use variables, which can be thought of as placeholders for statements and are represented with lowercase letters.
 
-> 1. a → b
-> 2. a
-    <hr>
-> 3. b
+> a → b <br>
+> a 
+><hr>
+> b
 
-Variables can be thought of as placeholders for statements. This allows us to generalize our study of arguments. For example, let us use a new argument that uses the same form, "If it is raining (R), you need an umbrella (U). It is raining (R). So, you need an umbrella (U)".
+Side note: forms do not contain line numbers. This is to convey that premise order does not matter. For example, if line numbers 1 and 2 were switched in the previous argument, so that "B" was line number 1 and "B → D" was line number 2, it would still follow the above form.
+
+With its form identified, we can easily parallel an argument, which means to generate another argument that follows a given form. Let us use: "If it is raining (R), you need an umbrella (U). It is raining (R). So, you need an umbrella (U)".
 
 > 1. R → U
 > 2. R
     <hr>
 > 3. U
 
-We can immediately recognize that "R" is in the place of "a" and "U" is in the place of "b", so this argument follows the previously mentioned form. Now what if we had something like "If it is raining, you need an umbrella. You need an umbrella. So, it is raining"?
+We can immediately recognize that "R" is in the place of "a" and "U" is in the place of "b", so this argument follows the previously mentioned form. Now what if we had something like "If it is raining, you need an umbrella. You need an umbrella. So, it is raining."?
 
 > 1. R → U
 > 2. U
