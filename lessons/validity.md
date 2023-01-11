@@ -3,7 +3,7 @@ layout: lesson
 title: Argument Validity
 ---
 
-In a previous bite-lesson, we said an argument assumes some truth in order to derive a new truth.
+In a previous lesson, we said an argument assumes some truth in order to derive a new truth.
 
 This means problems can potentially arise from both parts:
 
@@ -29,8 +29,8 @@ Now here is where validity might get "silly", consider this example:
 
 The example above is valid. But wait a second, we just discussed how the sound of barking could be from a song, video, or any number of other possibilities. How is it that example 1 is invalid but example 2 is valid?
 
-While we _know_ that the mere sound of barking may be from something other than a dog, example 2 states, "If you hear any barking, then there must be a dog". Any scenario that contradicts this statement would attack the truth of this premise--remember, we have to assume it is true to determine argument validity--assuming it is true, then barking implies dog and all the other possibilities cease to exist.
+While we _know_ that the mere sound of barking may be from something other than a dog, example 2 explicitly states, "If you hear any barking, then there must be a dog". Any scenario that contradicts this statement would attack the truth of this premise--remember, we have to assume the premises are true when assessing validity, and assuming it is true, then barking implies dog and all the other possibilities are ruled out.
 
-But wait another second, in "Assumptions", we discussed how "If you hear barking, then there must be a dog" is an assumption of example 1, does that not count for anything? Yes, it is an assumption that is required for the conclusion to be derived validly, but remember, an assumption is an unstated premise. When it comes to argument validity, we can only assess an argument based on what it has given us to use as support. 
+But wait another second, in "Assumptions", we discussed how "If you hear barking, then there must be a dog" is an assumption of example 1, does that not count for anything? Yes, it is an assumption that is required for the conclusion to be derived validly, but remember, an assumption is an unstated premise. When it comes to argument validity, we can only assess an argument based on what it has explicitly given us to use as support. This is because an argument is a reasoning structure where the premises are supposed to "lead" to the conclusion, if it is missing a necessary step, then it fails to lead to its conclusion.
 
-In summary, remember that validity is not concerned with whether or not the premises are actually true, and in assessing validity, we cannot infringe on the assumed truths of the given premises. In the next lesson, "Argument Soundness", we will briefly cover what it means for an argument to be _sound_.
+In summary, remember that validity is not concerned with whether or not the premises are actually true, and in assessing validity, we cannot infringe on the assumed truths of the given premises and can only assess whether the premises lead to their conclusion. In the next lesson, "Argument Soundness", we will briefly cover what it means for an argument to be _sound_.
