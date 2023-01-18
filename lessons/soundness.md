@@ -8,14 +8,17 @@ Recall from the previous lesson that an argument can have problems from both of 
 1. One or more of the assumed truths (premises) might be false.
 2. The newly derived truth (conclusion) may have been derived incorrectly.
 
-In "Argument Validity", we discussed how validity is only concerned with problems that stem from part 2. That said, if an argument is valid _and_ its premises are verified as true, then it is _sound_. Restated, an argument is sound when its conclusion is derived validly and its premises are verified as true (not merely assumbed to be so).
+In "Argument Validity", we discussed how validity is only concerned with problems that stem from part 2. That said, if an argument is valid **and** its premises are verified as true, then it is _sound_. In other words, an argument is sound if and only if its conclusion is derived validly and its premises are verified as true (not merely assumbed to be so). Thus, it does not have any problems with either one of its fundamental parts.
 
-At this point
+Returning to our favorite example:
 
-Yet, that is by design. Validity allows us to study arguments based soley on their form (which we will cover in the next lesson). This means just by knowing the form of an argument, we can immediately conclude whether it is valid or invalid. At this point, that might not seem like much, but this mere practice can potentially save us hours of research
+> 1. If you hear barking, then there must be a dog.
+> 2. You heard barking.
+    <hr>
+> 3. There must be a dog. (1, 2)
 
-That is where argument soundness comes in. An argument is _sound_ when it is valid AND its premises are actually true. Its premises are not merely assumptions but have been substantiated in the real world.
+As we stated previously, this example is valid, but it is unsound. It is unsound because the first premise is false, the mere sound of barking does not always imply the presence of a dog.
 
-These byte-lessons are not focused on argument soundness, but will instead be focused on argument validity and determining whether an argument has sufficient support or not. Assessing premises for truth may require a substantial amount of research. Furthermore, if an argument is invalid, it is also unsound, so by focusing on argument validity, we are doing the most for our reasoning skills in the least amount of time. 
+It might not be apparent why we should treat validity separately from soundness. Why not just say, "Hey, there's a problem with this argument!" without need for this classification? The short answer is that validity can be determined by argument form, which allows us to _greatly_ generalize the study of arguments. This generalization allows us to study arguments at a higher-level regardless of its actual content, if an argument form is valid, then any argument that follows that form is also valid. Similarly, if an argument form is invalid, then any argument that follows that form is also invalid.
 
-In the next lesson, we will talk about symbolizing statements and how doing so can help us in assessing argument validity and form.
+This "superpower" or "shortcut" to reasoning will become more apparent when we cover "Argument Form" and study the rules of inference. In the next lesson, we will talk about symbolizing statements and how doing so can aid us in recognizing argument form.

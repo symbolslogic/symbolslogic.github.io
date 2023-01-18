@@ -23,7 +23,7 @@ In the example above, the conclusion "there must be a dog" is derived from "I he
 Now here is where validity might get "silly", consider this example:
 
 > 1. If you hear barking, then there must be a dog.
-> 2. You hear barking.
+> 2. You heard barking.
     <hr>
 > 3. There must be a dog. (1, 2)
 
