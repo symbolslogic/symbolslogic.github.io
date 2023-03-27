@@ -41,6 +41,6 @@ Here are some examples:
 
     Note: Although the argument above is valid, it definitely is not sound.
 
-In each example, there is some condition _`a`_, where if that condition is affirmed, it necessitates some conclusion _`b`_. It then makes perfect sense that "modus ponens" is Latin for "the way that affirms by affirming". In each example, the antecedent of the implication was affirmed, which allowed us to the conclude the consequent of that implication.
+In each example, there is some condition _`a`_, where if that condition is affirmed, it necessitates some conclusion _`b`_. It then makes sense that "modus ponens" is Latin for "the way that affirms by affirming". In each example, the antecedent of the implication was affirmed, which allowed us to the conclude the consequent of that implication.
 
 In the next lesson, we will look at the "the way that denies by denying", better known as, Modus Tollens.
