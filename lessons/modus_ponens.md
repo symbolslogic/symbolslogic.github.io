@@ -25,10 +25,10 @@ Here are some examples:
 
 2. "Fewer and fewer people are voting (V). Democracy ceases to exist (E) if fewer and fewer people vote (V). So, democracy will cease to exist (E)."
 
-    > 1. E
-    > 2. E → V
+    > 1. V
+    > 2. V → E
     ><hr>
-    > 3. V <span class="deduction-support">MP 2, 1</span>
+    > 3. E <span class="deduction-support">MP 2, 1</span>
 
     Note: The implication is on line two in the example above. The order of the premises is interchangeable as long as the form is followed.
 
