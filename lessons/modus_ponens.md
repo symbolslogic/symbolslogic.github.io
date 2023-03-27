@@ -20,14 +20,14 @@ Here are some examples:
 
     > 1. B → R
     > 2. B
-    ><hr>
+    <hr>
     > 3. R <span class="deduction-support">MP 1, 2</span>
 
 2. "Fewer and fewer people are voting (V). Democracy ceases to exist (E) if fewer and fewer people vote (V). So, democracy will cease to exist (E)."
 
     > 1. V
     > 2. V → E
-    ><hr>
+    <hr>
     > 3. E <span class="deduction-support">MP 2, 1</span>
 
     Note: The implication is on line two in the example above. The order of the premises is interchangeable as long as the form is followed.
@@ -36,7 +36,7 @@ Here are some examples:
 
     > 1. B → M
     > 2. B
-    ><hr>
+    <hr>
     > 3. M <span class="deduction-support">MP 1, 2</span>
 
     Note: Although the argument above is valid, it definitely is not sound.
