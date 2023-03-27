@@ -28,3 +28,13 @@ If the dog does NOT bark, what does that entail? According to our biconditional,
 Similarly, if the cat does not run away, it means the dog did NOT bark.
 
 Since the truth-property of one statement dictates the truth-property of the other statement, the biconditional is also sometimes referred to as “equivalence”. 
+
+Speaking of equivalence, since we have covered most the necessary logical connectives at this point, we can state that:
+
+> a ↔ b
+
+Is equivalent to:
+
+> (a ∧ b) ∨ (¬a ∧ ¬b)
+
+At this point, you should know how to read that: a disjunction made up of two conjuncts, wherein the first conjunct asserts that both `a` and `b` are true; and the second conjunct asserts that both are... Well, you might be able to already guess it, but we still need to cover the negation symbol.
