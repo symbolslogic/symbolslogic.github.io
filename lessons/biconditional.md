@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Implication
+title: Biconditional
 ---
 
 The biconditional is a logical connective that establishes an "if and only if" relationship. It is typically symbolized using a double-sided arrow.
