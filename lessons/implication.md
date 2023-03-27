@@ -34,7 +34,7 @@ Note: The contrapositive is a two-step process: flip the order of the variables,
 
 So, what if all you knew was that the consequent is true, can you infer the antecedent? Ask yourself, if all you knew was that you were in California, can you infer that you are in Los Angeles? The answer is no. You can potentially be in any place in California. If you said yes, you would have committed the _fallacy of the converse_.
 
-Secondly, what if all we knew was that the antecedent is false, can we infer anything about the consequent? Ask yourself, if all you knew was that you were **NOT** in Los Angeles, can you infer anything else about your location? The answer is no, you can potentially be anywhere else, including places outside of California. If you said yes, you would have committed the _fallacy of the inverse_.
+Secondly, what if all we knew was that the antecedent is false, can we infer anything about the consequent? Ask yourself, if all you knew was that you were **NOT** in Los Angeles, can you infer anything else about your location? The answer is no, you can potentially be anywhere else, including places outside of California. If you said yes, particularly that if the antecedent is false, then the consequnt must also be false, you would have committed the _fallacy of the inverse_.
 
 The converse of an implication, a → c (mistaken sufficiency):
 
