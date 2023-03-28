@@ -17,6 +17,12 @@ $chevron-size: 2.4rem;
   padding: 0.9em 1.5em;
 }
 
+.lesson-content a {
+  text-decoration: underline;
+  color: rgb(91, 91, 91);
+  text-underline-offset: 3px;
+}
+
 .lesson ol {
   margin: 0.6em;
 }
