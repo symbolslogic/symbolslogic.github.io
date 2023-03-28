@@ -3,9 +3,8 @@ layout: lesson
 title: Modus Ponens
 ---
 
-We will begin our journey into the rules of inference with Modus Ponens (MP). MP is one of the most well-known valid argument forms, it also likely in every legal contract, computer program, and research paper in existence. You have likely either used MP or came across it at least once this week.
+Modus Ponens (MP) is one of the most common rules of inference. From the Latin, "the way to affirm by affirming", it follows the form of affirming the antecedent of an implication and inferring its consequent.
 
-So how does it look like? Here is its form:
 
 > a → b <br>
 > a 
@@ -41,6 +40,18 @@ Here are some examples:
 
     Note: Although the argument above is valid, it definitely is not sound.
 
-In each example, there is some condition _`a`_, where if that condition is affirmed, it necessitates some conclusion _`b`_. It then makes sense that "modus ponens" is Latin for "the way that affirms by affirming". In each example, the antecedent of the implication was affirmed, which allowed us to the conclude the consequent of that implication.
+In each example, there is some condition _`a`_, where if that condition is affirmed, it necessitates some conclusion _`b`_ given an implication _`a → b`_. 
 
-In the next lesson, we will look at the "the way that denies by denying", better known as, Modus Tollens.
+The most common pitfall when using MP is the fallacy of the converse, which occurs when the sufficient condition of the given implication is confused for the necessary condition. This was touched upon on the lesson for the [Implication]({{ site.baseurl }}/lessons/implication.html) and is also one of the most common errors in the Validity and Inference activities that are found in the Symbols Logic app.
+
+Restated briefly, the fallacy of the converse follows this form:
+
+> a → b <br>
+> b 
+><hr>
+> a
+
+Note: The fallacy of the converse affirms the consequent of the given implication and concludes its antecedent. A valid implementation of MP must affirm the antecedent and conclude the consequent of the given implication.
+
+
+In the next lesson, we will look at the "the way that denies by denying", better known as, Modus Tollens (MT).
