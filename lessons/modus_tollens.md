@@ -16,10 +16,10 @@ Although its description can sound scary, MT is very straightforward. One way to
 
 "If you are in Los Angeles (L), then you are in California (C). You are not in California (¬C), so you are not in Los Angeles (¬L)"
 
-    > 1. L → C
-    > 2. ¬C
-        <hr>
-    > 3. ¬L <span class="deduction-support">MT 1, 2</span>
+> 1. L → C
+> 2. ¬C
+    <hr>
+> 3. ¬L <span class="deduction-support">MT 1, 2</span>
 
 Using this example, it becomes clear that because "something" that is necessary is negated, whatever depends on that "something" must also be negated. That is the gist of MT. In the example above, being in Los Angeles depends on being in California, so if you are not in California, you cannot be in Los Angeles.
 
