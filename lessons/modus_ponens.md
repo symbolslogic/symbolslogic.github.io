@@ -13,7 +13,18 @@ Modus Ponens (MP) is one of the most common rules of inference. From the Latin, 
 
 Note: MP is based on the implication: You can review it [here]({{ site.baseurl }}/lessons/implication.html).
 
-Here are some examples:
+Although the words that describe MP can sound intimidating, MP is very straightforward. One easy way to think about it is by using the geography analogy from the [implication]({{ site.baseurl }}/lessons/implication.html) lesson:
+
+"If you are in Los Angeles (L), then you are in California (C). You are in Los Angeles (L), thus, you are in California (C)".
+
+> 1. L → C
+> 2. L
+    <hr>
+> 3. C <span class="deduction-support">MP 1, 2</span>
+
+Using this example, it becomes clear that whenever "something" that is sufficient is true, whatever is necessary for that "something" must also be true. In the example above, if you are in Los Angeles, then it is necessary that you are in California. 
+
+Here are some more examples:
 
 1. "If the dog barks (B), then the cat runs away (R). The dog barked (B). So, the cat ran away (R)."
 

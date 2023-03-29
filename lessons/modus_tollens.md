@@ -12,7 +12,7 @@ Modus Tollens (MT), "the way that denies by denying", is also a very common vali
 
 Note: MT is based on the implication: You can review it [here]({{ site.baseurl }}/lessons/implication.html).
 
-Although its description can sound scary, MT is very straightforward. One way to think of this form is by using the geography analogy given in the Implication lesson:
+Although its description can sound scary, MT is very straightforward. One way to think of this form is by using the geography analogy given in the [implication]({{ site.basurl }}/lesson/implication.html) lesson:
 
 "If you are in Los Angeles (L), then you are in California (C). You are not in California (¬C), so you are not in Los Angeles (¬L)"
 
