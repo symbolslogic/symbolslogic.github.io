@@ -32,7 +32,7 @@ Briefly restated, the fallacy of the inverse follows this form:
 ><hr>
 > ¬b
 
-Note: The fallacy of the inverse "denies" (or negates) the sufficient condition of the given implication and concludes the negation of its necessary condition. That is like saying, "If you are in Los Angeles, you must be in California. You are not in Los Angeles, so you are not in California"--that is not right because you can potentially be anywhere else in California outside of Los Angeles.
+Note: The fallacy of the inverse "denies" (or negates) the sufficient condition of the given implication and concludes the negation of its necessary condition. That is like saying, "If you are in Los Angeles, you must be in California. You are not in Los Angeles, so you are not in California"--that is not right because you can potentially be anywhere else in California, so long as you are outside of Los Angeles.
 
 
 

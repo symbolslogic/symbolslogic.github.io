@@ -38,11 +38,11 @@ Here are some examples:
         <hr>
     > 3. M <span class="deduction-support">MP 1, 2</span>
 
-    Note: Although the argument above is valid, it definitely is not sound.
+    Note: Although the argument above is valid, it is not sound.
 
 In each example, there is some condition _`a`_, where if that condition is affirmed, it necessitates some conclusion _`b`_ given an implication _`a → b`_. 
 
-The most common pitfall when using MP is the fallacy of the converse, which occurs when the sufficient condition of the given implication is confused for the necessary condition. This was touched upon on the lesson for the [Implication]({{ site.baseurl }}/lessons/implication.html) and is also one of the most common errors in the Validity and Inference activities that are found in the Symbols Logic app.
+The most common pitfall when using MP is _the fallacy of the converse_, which occurs when the sufficient condition of the given implication is confused for the necessary condition. This was touched upon on the lesson for the [Implication]({{ site.baseurl }}/lessons/implication.html) and is also one of the most common errors in the Validity and Inference activities that are found in the Symbols Logic app.
 
 Restated briefly, the fallacy of the converse follows this form:
 
@@ -51,7 +51,7 @@ Restated briefly, the fallacy of the converse follows this form:
 ><hr>
 > a
 
-Note: The fallacy of the converse affirms the consequent of the given implication and concludes its antecedent. A valid implementation of MP must affirm the antecedent and conclude the consequent of the given implication.
+Note: The fallacy of the converse affirms the consequent of the given implication and concludes its antecedent. That is like saying "If you live in Los Angeles, then you live in California. You live in California, so, you live in Los Angeles, which is invalid because you can potentially be anywhere in California, so you may or may not be in Los Angeles.
 
 
 In the next lesson, we will look at the "the way that denies by denying", better known as, Modus Tollens (MT).
