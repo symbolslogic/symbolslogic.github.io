@@ -19,7 +19,7 @@ Examples:
     > 1. B ∨ R
     > 2. ¬B
         <hr>
-    > 3. R <span class="deduction-support">DS 1, 2</span>
+    > 3. M <span class="deduction-support">DS 1, 2</span>
 
 2. "Waldo is either in Los Angeles (L) or San Francisco (S). Waldo is not in Los Angeles (¬L). Therefore, Waldo is in San Francisco (S)."
 
