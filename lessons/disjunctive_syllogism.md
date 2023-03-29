@@ -14,7 +14,7 @@ Its historical name, modus tollendo ponens, "mode that affirms by denying", give
 
 Examples:
 
-1. "Either the dog barks (B) or the cat runs away (R). The dog did not bark (¬B). So, the cat ran away (R)."
+1. "Either the dog barks (B) or the cat meows (M). The dog did not bark (¬B). So, the cat meowed (M)."
 
     > 1. B ∨ R
     > 2. ¬B
