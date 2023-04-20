@@ -43,4 +43,4 @@ A reason this fallacy may occur is confusing an "inclusive-or" (which the logica
 
 > a ↔ ¬b
 
-The meaning of this biconditional is: either _`a`_ or _`b`_ is true but not both; which is quite different from the (disjunction)[{{ site.baseurl}}/lessons/disjunction.html].
+The meaning of this biconditional is: either _`a`_ or _`b`_ is true but not both; which is quite different from the [disjunction]({{ site.baseurl}}/lessons/disjunction.html).
