@@ -37,4 +37,4 @@ Is equivalent to:
 
 > (a ∧ b) ∨ (¬a ∧ ¬b)
 
-At this point, you should know how to read that: a disjunction made up of two conjuncts, wherein the first conjunct asserts that both `a` and `b` are true; and the second conjunct asserts that both are... Well, you might be able to already guess it, but we still need to cover the negation symbol.
+At this point, you should know how to (mostly) read that: a disjunction made up of two conjunctions, wherein the first conjunction asserts that both `a` and `b` are true; and the second conjunction asserts that both are... Well, you might be able to already guess it, but we still need to cover the negation symbol.
