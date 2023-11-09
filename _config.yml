@@ -1,3 +1,6 @@
+title: Symbols Logic
+tagline: Quickly learn major concepts in argumentation and logic.
 url: "https://lessons.symbols-app.com"
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
