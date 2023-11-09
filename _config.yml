@@ -1,5 +1,10 @@
 title: Symbols Logic
+name: Symbols Logic Lessons
 tagline: Quickly learn major concepts in argumentation and logic.
+description: >
+  Unlock the power of logic and reasoning. Learn the basics of argument structure, 
+  the logical connectives, and the rules of inference.
+  Natural deduction is one step away.
 url: "https://lessons.symbols-app.com"
 plugins:
   - jekyll-sitemap
