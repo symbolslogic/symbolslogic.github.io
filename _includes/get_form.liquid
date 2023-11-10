@@ -1,0 +1,10 @@
+{%- comment -%}
+my_include.liquid
+-----------------
+Given a `formName` return its data from site.data.lessons.
+{%- endcomment -%}
+
+{% assign rulesOfInference = site.data.lessons | where: "section", "Rules of
+Inference" | first %}
+
+{% assign argForm = rulesOfInference.lessons | where: "name", include.formName | first %}
