@@ -7,4 +7,3 @@ Given a `form_name` return its data from site.data.lessons.
 {% assign rules_of_inference = site.data.lessons | where: "section", "Rules of Inference" | first %}
 
 {% assign argument_form = rules_of_inference.lessons | where: "name", include.form_name | first %}
-
