@@ -1,0 +1,27 @@
+<!-- Argument form -->
+<!-- From the rules of inference -->
+
+<!-- <p>{{include.formName}}</p> -->
+
+{% include get_form.liquid form_name=include.form_name %}
+
+<!-- split form lines -->
+{% assign form_lines = argument_form.form %}
+
+<!-- jsonify it -->
+{{ form_lines || jsonify }}
+
+<!-- Get last index -->
+<!-- {% assign last_index = form_lines | size | minus: 1 %} -->
+
+<!-- Drop last index -->
+<!-- Stash for now, unable to detect last line, would also need away to diff between implications and substitutiosn -->
+<!-- {% assign form_lines = form_lines | slice: 0, last_index %} -->
+
+<div>
+  <ol>
+    {% for line in form_lines %}
+    <li>{{ line }}</li>
+    {% endfor %}
+  </ol>
+</div>

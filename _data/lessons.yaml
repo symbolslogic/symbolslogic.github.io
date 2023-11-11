@@ -42,9 +42,30 @@
   lessons:
     - name: Modus Ponens
       link: /lessons/modus_ponens.html
+      connectives:
+        - implication
+      form:
+        - a → b
+        - a
+        - b
 
     - name: Modus Tollens
       link: /lessons/modus_tollens.html
+      connectives:
+        - implication
+      form:
+        - a → b
+        - ¬b
+        - <br />
+        - a
 
     - name: Disjunctive Syllogism
       link: /lessons/disjunctive_syllogism.html
+      connectives:
+        - disjunction
+      form:
+        - a ∨ b
+        - ¬a
+        - <br />
+        - b
+# ∨ ¬ → ↔
