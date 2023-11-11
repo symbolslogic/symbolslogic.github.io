@@ -68,4 +68,13 @@
         - ¬a
         - <br />
         - b
+
+    - name: Hypothetical Syllogism
+      link: /lessons/hypothetical_syllogism.html
+      connectives:
+        - implication
+      form:
+        - a → b
+        - b → c
+        - a → c
 # ∨ ¬ → ↔
