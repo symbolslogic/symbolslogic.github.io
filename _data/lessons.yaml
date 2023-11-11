@@ -82,9 +82,18 @@
       link: /lessons/constructive_dilemma.html
       connectives:
         - implication
+        - conjunction
         - disjunction
       form:
         - (a → b) ^ (c → d)
         - a ∨ c
         - b ∨ d
+
+    - name: Simplification
+      link: /lessons/simplification.html
+      connectives:
+        - conjunction
+      form:
+        - a ^ b
+        - a
 # ∨ ¬ → ↔
