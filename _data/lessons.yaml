@@ -84,7 +84,7 @@
         - implication
         - disjunction
       form:
-        - (a → b) ∨ (c → d)
+        - (a → b) ^ (c → d)
         - a ∨ c
         - b ∨ d
 # ∨ ¬ → ↔
