@@ -96,4 +96,13 @@
       form:
         - a ^ b
         - a
+
+    - name: Conjunction
+      link: /lessons/conjunction_rule.html
+      connectives:
+        - conjunction
+      form:
+        - a
+        - b
+        - a ^ b
 # ∨ ¬ → ↔
