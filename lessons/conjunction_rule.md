@@ -22,4 +22,4 @@ Example:
 
 Again, like [Simp]({{ site.baseurl }}/lessons/simplification.html), this is a very simple argument form that is commonly used as an intermediary conclusion.
 
-Just imagine, you have an [implication]({{ site.baseurl }}/lessons/implication.html) that has a (conjunction)({{ site.baseurl }}/lessons/conjunction.html) as its antecedent, but there are no given statements that are conjunctions, Conj might be the perfect tool for the job.
+Just imagine, you have an [implication]({{ site.baseurl }}/lessons/implication.html) that has a [conjunction]({{ site.baseurl }}/lessons/conjunction.html) as its antecedent <i>and you are trying to get to that consequent</i>, but there are no given statements that are conjunctions, Conj might be the perfect tool for the job.
