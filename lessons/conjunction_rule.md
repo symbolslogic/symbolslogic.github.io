@@ -6,7 +6,7 @@ tagline: Learn the conjunction rule of inference, an argument form that allows y
 
 Conjunction (Conj) is a very simple argument form that allows two statements to be combined into a single [conjunction (connective)]({{ site.baseurl }}/lessons/conjunction.html). 
 
-> a
+> a <br>
 > b
 > <hr>
 > a ^ b
