@@ -77,4 +77,14 @@
         - a → b
         - b → c
         - a → c
+
+    - name: Constructive Dilemma
+      link: /lessons/constructive_dilemma.html
+      connectives:
+        - implication
+        - disjunction
+      form:
+        - (a → b) ∨ (c → d)
+        - a ∨ c
+        - b ∨ d
 # ∨ ¬ → ↔
