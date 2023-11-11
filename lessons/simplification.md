@@ -7,6 +7,7 @@ tagline: Simplification may be abbreviated as Simp, but it is a necessary and si
 Simplification (Simp) is a very simple argument form that allows the extraction of a conjunct from a [conjunction]({{ site.baseurl }}/lessons/conjunction.html).
 
 > a ^ b
+> <hr>
 > a
 
 Given a conjunction, `a ^ b`, we know that both `a` and `b` are true. Therefore, we can safely conclude `a` is true.
