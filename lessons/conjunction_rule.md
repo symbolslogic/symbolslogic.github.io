@@ -18,7 +18,7 @@ Example:
 > 1. M
 > 2. C
     <hr>
-> 3. M ^ C
+> 3. M ^ C <span class="deduction-support"> Conj 1, 2</span>
 
 Again, like [Simp]({{ site.baseurl }}/lessons/simplification.html), this is a very simple argument form that is commonly used as an intermediary conclusion.
 
